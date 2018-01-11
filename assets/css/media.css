@@ -1,0 +1,104 @@
+@media (max-width: 1024px){
+    .facebook {
+        width: 100%;
+    }
+    .header img{
+        display: inline-block;
+    }
+    .facebook .main .wrapper {
+       margin: 40px auto;
+       float: initial;
+    }
+    .facebook .header span{
+    	float: none;
+    	right: 0;
+    }
+    .facebook .header {
+        display: flex;
+  		justify-content: center;
+  		align-items: center;
+    }
+    .facebook .main{
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+    }
+    .facebook .main .post{
+        max-width: 90%;
+    }
+    .facebook .main .comments{
+        max-width: 90%;
+    }
+    .facebook aside{
+    	right: -300px;
+        width: 300px;
+        padding: 0;
+        z-index: 4;
+        opacity: 1;
+    }
+    .frame {
+    	left: -1025px;
+    	z-index: 2;
+        width: 60%;
+    }
+    #right{
+    	display: inline-block;
+    }
+    #left{
+    	display: inline-block;
+    }
+    #closeFrame{
+    	display: inline-block;
+    }
+}
+
+@media (max-width: 600px){
+    .facebook aside{
+    	right: -600px;
+        width: 100%;
+        padding: 0;
+        z-index: 4;
+    }
+    .facebook .main .post{
+        max-width: 97%;
+    }
+    .facebook .main .comments{
+        max-width: 97%;
+    }
+    .facebook .main .post .likes .thumb,.facebook .main .post .likes .comment, .facebook .main .post .likes .share {
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+    .facebook .main .post .container .info .big{
+    	font-size: 20px;
+    }
+    .facebook .main .post .container .info .more{
+    	font-size: 14px;
+    }
+    .frame{
+    	width: 100%
+    }
+
+}
+@media (max-width: 360px){
+    .facebook .main .post .likes .thumb,.facebook .main .post .likes .comment, .facebook .main .post .likes .share {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .facebook .main .post .container{
+    	padding: 2px;
+    }
+    .facebook .main .post .container .info .more{
+        display: inline-block;
+    }
+    .facebook .main .post .container .info .button{
+        position: relative;
+    }
+    .facebook .main .post .container .info {
+        max-height: none;
+    }
+    .facebook .main .post .likes .thumb,.facebook .main .post .likes .comment, .facebook .main .post .likes .share {
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+}
