@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-	require("./functions.php");
+	require "./functions.php";
 	$login = ['Please sign in first!', 'I can\'t hear you unless you sign in!', 
 	'You are saying something <br>I do not understand', 'Please, Login First. I promise We\'ll have fun!'];
 
